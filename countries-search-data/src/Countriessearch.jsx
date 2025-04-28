@@ -71,12 +71,12 @@ const Countries = () => {
             }}
           >
             <img
-              src={country.flags.png}
+              src={country.png}
               alt={`${country.name.common} flag`}
               style={{ width: "100px", height: "100px", borderRadius: "4px" }}
             />
             <p style={{ marginTop: "10px", textAlign: "center" }}>
-              {country.name.common}
+              {country.common}
             </p>
           </div>
         ))}
