@@ -72,7 +72,7 @@ const Countries = () => {
           >
             <img
               src={country.png}
-              alt={`${country.name.common} flag`}
+              alt={`${country.common} flag`}
               style={{ width: "100px", height: "100px", borderRadius: "4px" }}
             />
             <p style={{ marginTop: "10px", textAlign: "center" }}>
